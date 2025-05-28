@@ -8,6 +8,7 @@ model = joblib.load("svm_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.title("🦟 Malaria Prediction App")
+st.write("App Developed By David Emmanuel SPD400L FUL:")
 st.write("Enter patient symptoms below to predict the presence of malaria:")
 
 fever = st.slider("Body Temperature (°C)", 35.0, 42.0, 37.0)
